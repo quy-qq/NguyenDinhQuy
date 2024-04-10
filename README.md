@@ -9,7 +9,7 @@
 
 Get:\_ http://localhost:3000/?filter={"price":1000}&order={"sortBy":"price", "orderBy":"asc" } \*
 
-#### API Get Details Product (Filter And Sort)
+#### API Get Details Product
 
 Get:\_ http://localhost:3000/:id \*
 
