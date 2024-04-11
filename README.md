@@ -22,14 +22,14 @@ The Score Update API Service is a module that updates the score of a user upon c
 
 ## Data request and response
 
-##### Request
+### Request
 
 `{
 "token": String,
 scoreIncrement: Number
 }`
 
-##### Response
+### Response
 
 **Success**
 
