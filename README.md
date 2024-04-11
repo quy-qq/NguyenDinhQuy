@@ -22,22 +22,28 @@ The Score Update API Service is a module that updates the score of a user upon c
 
 ## Data request and response
 
-const request = {
+##### Request
+
+`{
 "token": String,
 scoreIncrement: Number
+}`
+
+##### Response
+
+**Success**
+
+`{
+"success": true,
+"data":{
+"newScore": Number,
+"userId": String
 }
+}`
 
-1. Success  
-    const response = {  
-    "success": true,
-   "data":{
-   "newScore": Number,
-   "userId": String
-   }
-   }
+**Fail**
 
-2. Fail
-   const response = {  
-    "success": false,
-   "data": null
-   }
+`{  
+ "success": false,
+"data": null
+}`
