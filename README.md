@@ -1,4 +1,4 @@
-# Software Module Specification - Score Update API Service
+# Score Update API Service
 
 ## Description
 
@@ -15,7 +15,7 @@ The Score Update API Service is a module that updates the score of a user upon c
 
 ## Improvements
 
-1. Add authentication and authorization mechanism to validate the user making the API call.
+1. Add authentication(JWT) mechanism to validate the user making the push socket.
 2. Use a message queue (e.g. RabbitMQ) to handle the API calls asynchronously to prevent slowing down the website.
 3. Add rate limiting to prevent malicious users from sending too many API calls.
 4. Add logging to monitor the module’s performance and detect any potential issues.
